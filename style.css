@@ -12,6 +12,10 @@ body {
     padding: 0;
 }
 
+.container-header{
+    margin-left: 17.75%;
+}
+
 .header {
     height: 40px;
     border-bottom: 1px #eee solid;
@@ -56,20 +60,21 @@ body {
 }
 
 .caixa-de-busca {
-    margin-top: 8px;
+    margin-top: 7px;
     margin-left: 10px;
     background-color: #eee;
-    height: 24px;
+    height: 26px;
 }
 
 .caixa-de-busca input {
     border-width: 0;
     background-color: transparent;
     font-weight: bold;
+    padding-left: 7px;
 }
 
 .caixa-de-busca i {
-    padding: 2px;
+    padding: 4px;
     
 }
 
