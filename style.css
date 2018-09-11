@@ -56,18 +56,21 @@ body {
 }
 
 .caixa-de-busca {
-    margin: 10px;
+    margin-top: 8px;
+    margin-left: 10px;
     background-color: #eee;
-    height: 20px;
+    height: 24px;
 }
 
 .caixa-de-busca input {
     border-width: 0;
     background-color: transparent;
+    font-weight: bold;
 }
 
 .caixa-de-busca i {
-    padding: 2px
+    padding: 2px;
+    
 }
 
 .titulo {
@@ -112,6 +115,15 @@ body {
     font-size: 14px;
 }
 
+.selected{
+    border-bottom: 4px solid #fff;
+    margin-top: 3px;
+}
+
+.selected a span{
+    position: relative;
+    bottom: 3px;
+}
 
 .ultimo-item-navbar{
     border-right: 0px solid #a91717;
@@ -195,7 +207,6 @@ body {
     margin: 0;
     padding: 0;
     color: black;
-    margin-top: 20px;
 }
 
 .data{
@@ -301,6 +312,13 @@ p{
     font-weight: bold;
 }
 
+.bordaHorario {
+    background-color: #bb1919;       
+    height: 2px;
+    margin-top: 8px;
+    width: 40px;
+}
+
 .titulo-destaque{
   margin-bottom: 12px;
   color: #404040;
@@ -308,6 +326,10 @@ p{
   padding-right: 24px;
 }
 
+.titulo-destaque h2{
+    font-weight: 200;
+
+}
 .subtitulo{
   cursor: pointer;
   margin-top: 0;
